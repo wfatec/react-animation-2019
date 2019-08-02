@@ -169,9 +169,9 @@ class ReactAnimations extends Component {
     return (
       <Fragment>
         <div className="wrapper-react-animations">
-          <Bounce><h1>Hello Animation Bounce</h1></Bounce>
-          {/*/!*<Bounce><Item name="Bounce" /></Bounce>*!/*/}
-          {/*/!*<BounceInDown><Item name="BounceInDown" /></BounceInDown>*!/*/}
+          {/* <Bounce><h1>Hello Animation Bounce</h1></Bounce> */}
+          <Bounce><Item name="Bounce" /></Bounce>
+          {/* <BounceInDown><Item name="BounceInDown" /></BounceInDown> */}
           {/*/!*<BounceInLeft><Item name="BounceInDown" /></BounceInLeft>*!/*/}
           {/*/!*<BounceInRight><Item name="bounceInRight" /></BounceInRight>*!/*/}
           {/*/!*<BounceInUp><Item name="bounceInUp" /></BounceInUp>*!/*/}

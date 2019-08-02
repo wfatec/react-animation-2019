@@ -20,7 +20,7 @@ export default class ReactTransitionGroup extends Component {
   }
 
   handleRemove(i) {
-    let newItems = this.state.items.slice();
+    let newItems = this.state.items;
     newItems.splice(i, 1);
     this.setState({items: newItems});
   }
